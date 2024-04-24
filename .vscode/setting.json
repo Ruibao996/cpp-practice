@@ -1,0 +1,4 @@
+{
+    "cpp": "cd $dir && g++-13 '$fileName' -o '$fileNameWithoutExt' -std=c++20 -Wall -Wpedantic -Wextra && echo 'compilation ends.' && ./'$fileNameWithoutExt'",
+    "c": "cd $dir && gcc-13 '$fileName' -o '$fileNameWithoutExt' -std=c17 -Wall -Wpedantic -Wextra && echo 'compilation ends.' && ./'$fileNameWithoutExt'"
+}

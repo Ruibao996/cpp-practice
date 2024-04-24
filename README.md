@@ -1,0 +1,1 @@
+This file records my coding practice based on the book "Coding Interview: Questions, Analysis and Solutions".
