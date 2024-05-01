@@ -8,8 +8,8 @@ https://github.com/zhedahht/CodingInterviewChinese2/blob/master/LICENSE.txt)
 *******************************************************************/
 
 //==================================================================
-// ¡¶½£Ö¸Offer¡ª¡ªÃûÆóÃæÊÔ¹Ù¾«½²µäÐÍ±à³ÌÌâ¡·´úÂë
-// ×÷Õß£ººÎº£ÌÎ
+// ï¿½ï¿½ï¿½ï¿½Ö¸Offerï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¹Ù¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½â¡·ï¿½ï¿½ï¿½ï¿½
+// ï¿½ï¿½ï¿½ß£ï¿½ï¿½Îºï¿½ï¿½ï¿½
 //==================================================================
 
 #pragma once
@@ -22,8 +22,8 @@ struct TreeNode
     std::vector<TreeNode*>    m_vChildren;    
 };
 
-__declspec( dllexport ) TreeNode* CreateTreeNode(int value);
-__declspec( dllexport ) void ConnectTreeNodes(TreeNode* pParent, TreeNode* pChild);
-__declspec( dllexport ) void PrintTreeNode(const TreeNode* pNode);
-__declspec( dllexport ) void PrintTree(const TreeNode* pRoot);
-__declspec( dllexport ) void DestroyTree(TreeNode* pRoot);
+TreeNode* CreateTreeNode(int value);
+void ConnectTreeNodes(TreeNode* pParent, TreeNode* pChild);
+void PrintTreeNode(const TreeNode* pNode);
+void PrintTree(const TreeNode* pRoot);
+void DestroyTree(TreeNode* pRoot);

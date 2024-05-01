@@ -8,8 +8,8 @@ https://github.com/zhedahht/CodingInterviewChinese2/blob/master/LICENSE.txt)
 *******************************************************************/
 
 //==================================================================
-// ¡¶½£Ö¸Offer¡ª¡ªÃûÆóÃæÊÔ¹Ù¾«½²µäÐÍ±à³ÌÌâ¡·´úÂë
-// ×÷Õß£ººÎº£ÌÎ
+// ï¿½ï¿½ï¿½ï¿½Ö¸Offerï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¹Ù¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½â¡·ï¿½ï¿½ï¿½ï¿½
+// ï¿½ï¿½ï¿½ß£ï¿½ï¿½Îºï¿½ï¿½ï¿½
 //==================================================================
 
 #pragma once
@@ -21,8 +21,8 @@ struct BinaryTreeNode
     BinaryTreeNode*        m_pRight; 
 };
 
-__declspec( dllexport ) BinaryTreeNode* CreateBinaryTreeNode(int value);
-__declspec( dllexport ) void ConnectTreeNodes(BinaryTreeNode* pParent, BinaryTreeNode* pLeft, BinaryTreeNode* pRight);
-__declspec( dllexport ) void PrintTreeNode(const BinaryTreeNode* pNode);
-__declspec( dllexport ) void PrintTree(const BinaryTreeNode* pRoot);
-__declspec( dllexport ) void DestroyTree(BinaryTreeNode* pRoot);
+BinaryTreeNode* CreateBinaryTreeNode(int value);
+void ConnectTreeNodes(BinaryTreeNode* pParent, BinaryTreeNode* pLeft, BinaryTreeNode* pRight);
+void PrintTreeNode(const BinaryTreeNode* pNode);
+void PrintTree(const BinaryTreeNode* pRoot);
+void DestroyTree(BinaryTreeNode* pRoot);
