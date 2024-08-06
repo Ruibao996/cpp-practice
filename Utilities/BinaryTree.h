@@ -12,7 +12,7 @@ https://github.com/zhedahht/CodingInterviewChinese2/blob/master/LICENSE.txt)
 // ���ߣ��κ���
 //==================================================================
 
-#pragma once
+// #pragma once
 
 struct BinaryTreeNode 
 {
